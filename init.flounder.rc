@@ -5,9 +5,6 @@ on early-init
     mount debugfs /sys/kernel/debug /sys/kernel/debug mode=755
 
 on init
-    # Load persistent dm-verity state
-    verity_load_state
-
     start watchdogd
 
     symlink /sdcard /storage/sdcard0
@@ -122,11 +119,6 @@ on boot
 
 on fs
     mount_all /fstab.flounder
-    # Update dm-verity state and set partition.*.verified properties
-    verity_update_state
-
-on verity-logging
-    exec u:r:slideshow:s0 -- /sbin/slideshow warning/verity_red_1 warning/verity_red_2
 
 service battery_charger /charger
     class charger

@@ -7,7 +7,7 @@
  },
  {
    "remote":       "github",
-   "repository":   "DirtyUnicorns/proprietary_vendor_htc",
+   "repository":   "DirtyUnicorns/android_vendor_htc",
    "target_path":  "vendor/htc",
    "branch":       "n7x"
  }

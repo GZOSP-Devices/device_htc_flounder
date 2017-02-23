@@ -297,3 +297,8 @@ $(call inherit-product-if-exists, vendor/htc/flounder/audio/tfa/device-vendor-tf
 # Add dependency of the proprietary keystore.flounder module.
 PRODUCT_PACKAGES += \
     libkeymaster_messages
+
+# Google Assistant
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.opa.eligible_device=true
+

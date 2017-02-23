@@ -145,3 +145,7 @@ USE_CLANG_PLATFORM_BUILD := true
 
 # Use the non-open-source parts, if they're present
 -include vendor/htc/flounder/BoardConfigVendor.mk
+
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+

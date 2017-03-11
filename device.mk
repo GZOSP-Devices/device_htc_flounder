@@ -227,6 +227,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     fmas.spkr_sgain=0 \
     media.aac_51_output_enabled=true
 
+# drmservice prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true
+
 # facelock props
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.black_timeout=700 \

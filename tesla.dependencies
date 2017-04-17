@@ -7,8 +7,8 @@
  },
  {
    "remote":       "github",
-   "repository":   "DirtyUnicorns/android_vendor_htc",
+   "repository":   "TheMuppets/proprietary_vendor_htc",
    "target_path":  "vendor/htc",
-   "branch":       "n7x"
+   "branch":       "cm-14.1"
  }
 ]

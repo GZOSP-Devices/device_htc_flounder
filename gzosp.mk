@@ -6,8 +6,7 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1536
 
 # Inherit some common Gzosp stuff.
-$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
-$(call inherit-product, vendor/gzosp/config/caf_fw.mk)
+$(call inherit-product, vendor/gzosp/config/common_full_tablet_wifionly.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/gzosp/config/nfc_enhanced.mk)

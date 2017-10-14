@@ -1,0 +1,14 @@
+[
+ {
+   "remote":       "github",
+   "repository":   "LineageOS/android_kernel_htc_flounder",
+   "target_path":  "kernel/htc/flounder",
+   "branch":       "lineage-15.0"
+ },
+ {
+   "remote":       "github",
+   "repository":   "bgcngm/proprietary_vendor_htc",
+   "target_path":  "vendor/htc",
+   "branch":       "lineage-15.0"
+ }
+]

@@ -11,8 +11,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.cpp.duplication=false
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+# Inherit some common GZOSP stuff
+$(call inherit-product, vendor/gzosp/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/flounder/aosp_flounder.mk)
@@ -37,6 +37,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="volantis-user 7.1.1 N9F27M 4333998 release-keys"
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_flounder
+PRODUCT_NAME := gzosp_flounder
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 9
